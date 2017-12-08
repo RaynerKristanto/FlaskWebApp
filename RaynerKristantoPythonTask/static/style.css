@@ -1,0 +1,17 @@
+body                { font-family: sans-serif; background: #eee; }
+h1, h2              { font-family: 'Arial', serif; margin: 0; }
+h1                  { border-bottom: 2px solid #eee; }
+h2                  { font-size: 1.2em; }
+
+.page               { margin: 2em auto; width: 35em; border: 5px solid #ccc;
+                      padding: 0.8em; background: white; }
+.flash              { background: #cee5F5; padding: 0.5em;
+                      border: 1px solid #aacbe2; margin-bottom: 10px }
+.error              { background: #f0d6d6; padding: 0.5em; margin-bottom: 5px }
+.login-labels       { display: inline-block; }
+.input-fields       { display: inline-block; }
+.input-fields input { margin: 8px 0px 8px 0px;}
+.buttons      { background-color: #565656; border: none; color: white;
+                      padding: 7px 16px; text-align: center; text-decoration: none;
+                      display: inline-block; font-size: 16px;}
+.buttons:hover{ background-color: black; }

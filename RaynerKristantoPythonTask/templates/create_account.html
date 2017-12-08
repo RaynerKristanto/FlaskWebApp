@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block body %}
+<h2>Sign up</h2>
+<form action="{{ url_for('add_user') }}" method=post>
+    <div class="login-labels">
+        <p>New Username:</p>
+        <p>New Password:</p>
+    </div>
+    <div class="input-fields">
+        <input type=text name=username>
+        <br>
+        <input type=password name=password>
+    </div>
+    <br>
+    <input class="buttons" type=submit value="Create Account">
+    <a class="buttons" href="{{ url_for('login') }}">Cancel</a>
+</form>
+{% endblock %}
